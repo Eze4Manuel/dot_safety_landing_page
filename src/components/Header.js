@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="h-[75px] sticky top-0 z-50 bg-white px-12 md:px-24 grid shadow-md">
+    <div className="h-[75px] sticky top-0 z-50 bg-white px-12 md:px-24 grid shadow-md w-full">
       <Transition
         // as={Fragment}
         show={isOpen}
@@ -39,7 +39,7 @@ const Header = () => {
           </div>
         </div>
       </Transition>
-      <div className=" max-w-[1130px] justify-between z-40 grid grid-cols-3 lg:flex items-center">
+      <div className=" max-w-[1130px] justify-between z-40 flex items-center w-full">
         <div>
           <img src="/img/logo.png" alt="" className="inline-grid" />
           <h2 className="text-primary-base hidden md:inline-grid ml-4 font-semibold text-lg">
@@ -56,23 +56,23 @@ const Header = () => {
               Login
             </button>
           </ul>
-        </div>
-        <div className="w-2 ml-auto ">
-          <Transition show={isOpen}>
-            <AiOutlineClose
-              className="lg:hidden my-auto cursor-pointer"
-              size="30"
-              onClick={() => setIsOpen(false)}
-            />
-          </Transition>
+          <div className="w-2 ml-auto ">
+            <Transition show={isOpen}>
+              <AiOutlineClose
+                className="lg:hidden my-auto cursor-pointer"
+                size="30"
+                onClick={() => setIsOpen(false)}
+              />
+            </Transition>
 
-          <Transition show={!isOpen}>
-            <AiOutlineMenu
-              onClick={() => setIsOpen(true)}
-              className="lg:hidden cursor-pointer"
-              size="30"
-            />
-          </Transition>
+            <Transition show={!isOpen}>
+              <AiOutlineMenu
+                onClick={() => setIsOpen(true)}
+                className="lg:hidden cursor-pointer"
+                size="30"
+              />
+            </Transition>
+          </div>
         </div>
       </div>
     </div>
