@@ -62,7 +62,7 @@ const Header = () => {
         <div>
           <ul className="hidden lg:flex space-x-16 text-sm text-grey-600 uppercase items-center">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#how_it_works">How it works</a>
