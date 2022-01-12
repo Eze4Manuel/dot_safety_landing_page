@@ -1,7 +1,8 @@
 import GetTheApp from "./components/GetTheApp";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import HowItWorks from "./HowItWorks";
+import HowItWorks from "./components/HowItWorks";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <HowItWorks />
         <GetTheApp />
+        <Testimonials />
       </main>
     </div>
   );
