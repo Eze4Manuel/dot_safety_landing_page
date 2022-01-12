@@ -26,13 +26,13 @@ const Footer = () => {
             <h4 className="font-bold font-serif text-xl">Links</h4>
             <ul className="py-6 font-[350] text-sm space-y-6 text-green-200">
               <l className="hover:text-white hover:font-medium">
-                <a href="#">HOME</a>
+                <a href="/">HOME</a>
               </l>
               <li className="hover:text-white hover:font-medium">
-                <a href="#">FAQ</a>
+                <a href="/">FAQ</a>
               </li>
               <li className="hover:text-white hover:font-medium">
-                <a href="#">Contact Us</a>
+                <a href="/">Contact Us</a>
               </li>
             </ul>
           </div>

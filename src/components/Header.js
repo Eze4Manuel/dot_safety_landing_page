@@ -22,7 +22,7 @@ const Header = () => {
             <ul className="text-center my-auto text-xl text-green-200">
               <li className="py-6 hover:text-white">
                 <button className="font-bold">
-                  <a onClick={() => setIsOpen(false)} href="#">
+                  <a onClick={() => setIsOpen(false)} href="/">
                     Home
                   </a>
                 </button>
