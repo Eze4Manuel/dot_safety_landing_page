@@ -3,7 +3,10 @@ import Card from "./Card";
 
 const HowItWorks = () => {
   return (
-    <div className="min-h-screen bg-white  py-14 px-4 md:px-5 lg:px-28">
+    <div
+      id="how_it_works"
+      className="min-h-screen bg-white  py-14 px-4 md:px-5 lg:px-28"
+    >
       <div className="max-w-[290px]">
         <h3 className="text-primary-base uppercase ">The Process</h3>
         <h2 className="text-grey-600 py-3 font-semibold  font-serif text-[32px] leading-9">

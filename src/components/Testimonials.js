@@ -5,22 +5,14 @@ const testimonials = [
   {
     img: "/img/testimonials/1.png",
     name: "Janet Praise",
-    ocucupation: "Civil Servant",
+    occupation: "Civil Servant",
     testimony:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut Lorem ipsum",
   },
   {
     img: "/img/testimonials/2.png",
     name: "Wiliams Ibrahim",
-    ocucupation: "Civil Servant",
-    testimony:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut Lorem ipsum",
-  },
-
-  {
-    img: "/img/testimonials/2.png",
-    name: "Wiliams Ibrahim",
-    ocucupation: "Civil Servant",
+    occupation: "Civil Servant",
     testimony:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut Lorem ipsum",
   },
@@ -28,7 +20,15 @@ const testimonials = [
   {
     img: "/img/testimonials/2.png",
     name: "Wiliams Ibrahim",
-    ocucupation: "Civil Servant",
+    occupation: "Civil Servant",
+    testimony:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut Lorem ipsum",
+  },
+
+  {
+    img: "/img/testimonials/2.png",
+    name: "Wiliams Ibrahim",
+    occupation: "Civil Servant",
     testimony:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut consectetur adipiscing elit incididunt ut labore et dolore magna consectetur adipiscing elit, incididunt ut Lorem ipsum",
   },
@@ -36,7 +36,10 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="min-h-screen bg-white py-14 px-4 md:px-5 lg:px-28">
+    <div
+      id="testimonials"
+      className="min-h-screen bg-white py-14 px-4 md:px-5 lg:px-28"
+    >
       <div>
         <h3 className="text-[32px] text-primary-base text-center py-9 font-serif font-semibold">
           Testimonial

@@ -21,19 +21,32 @@ const Header = () => {
           <div className="flex justify-center flex-col items-center h-screen">
             <ul className="text-center my-auto text-xl text-green-200">
               <li className="py-6 hover:text-white">
-                <button className="font-bold">Home</button>
+                <button className="font-bold">
+                  <a onClick={() => setIsOpen(false)} href="#">
+                    Home
+                  </a>
+                </button>
               </li>
               <li className="py-6 hover:text-white">
-                <button className="font-bold">How It Works</button>
+                <button className="font-bold">
+                  <a onClick={() => setIsOpen(false)} href="#how_it_works">
+                    How it works
+                  </a>
+                </button>
               </li>
               <li className="py-6 hover:text-white">
-                <button className="font-bold">About Us</button>
+                <button className="font-bold">
+                  <a onClick={() => setIsOpen(false)} href="#get_the_app">
+                    Get the app
+                  </a>
+                </button>
               </li>
               <li className="py-6 hover:text-white">
-                <button className="font-bold">Get The App</button>
-              </li>
-              <li className="py-6 hover:text-white">
-                <button className="font-bold">Testimonials</button>
+                <button className="font-bold">
+                  <a onClick={() => setIsOpen(false)} href="#testimonials">
+                    Testimonials
+                  </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -48,10 +61,18 @@ const Header = () => {
         </div>
         <div>
           <ul className="hidden lg:flex space-x-16 text-sm text-grey-600 uppercase items-center">
-            <li>Home</li>
-            <li>How it works</li>
-            <li>Get the app</li>
-            <li>Testimonials</li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#how_it_works">How it works</a>
+            </li>
+            <li>
+              <a href="#get_the_app">Get the app</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
             <button className="bg-primary-base text-white px-11 py-3 rounded-md hover:bg-primary-dark">
               Login
             </button>

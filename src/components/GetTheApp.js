@@ -2,7 +2,7 @@ import React from "react";
 
 const GetTheApp = () => {
   return (
-    <div className="min-h-[80vh]  grid grid-cols-1">
+    <div id="get_the_app" className="min-h-[80vh] pt-12  grid grid-cols-1">
       <div className="px-4 md:px-6 lg:px-[160px] col-span-1 z-20 flex items-center">
         <div>
           <h2 className="font text-grey-600 font-serif text-center font-semibold text-4xl md:text-[55px]">

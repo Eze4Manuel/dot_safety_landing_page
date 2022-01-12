@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import GetTheApp from "./components/GetTheApp";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -13,6 +14,7 @@ function App() {
         <HowItWorks />
         <GetTheApp />
         <Testimonials />
+        <Footer />
       </main>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen px-4 md:px-5 lg:px-28 py-14 bg-bg mt-[30px] lg:mt-0 mx-auto flex flex-col-reverse lg:grid items-center grid-cols-2 ">
+    <div className="min-h-screen px-4 md:px-5 lg:px-28 py-14 bg-bg mx-auto flex flex-col-reverse lg:grid items-center grid-cols-2 ">
       <div className="col-span-1">
-        <h1 className="text-primary-base relative text-3xl md:tex-4xl lg:text-5xl font-semibold lg:leading-[59px]">
+        <h1 className="text-primary-base mt-[30px] lg:mt-0  relative text-3xl md:tex-4xl lg:text-5xl font-semibold lg:leading-[59px]">
           Enjoy Seamless protection and Safety in your Environment.
         </h1>
 
