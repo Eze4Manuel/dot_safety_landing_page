@@ -1,3 +1,4 @@
+import GetTheApp from "./components/GetTheApp";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./HowItWorks";
@@ -9,6 +10,7 @@ function App() {
       <main className="">
         <Hero />
         <HowItWorks />
+        <GetTheApp />
       </main>
     </div>
   );
