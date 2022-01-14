@@ -10,7 +10,7 @@ const Hero = () => {
 
         <div className="w-2/5 h-1 bg-primary-base my-6"></div>
 
-        <p className=" text-base lg:text-lg leading-6 py-6">
+        <p className="text-sm md:text-base lg:text-lg leading-6 py-6">
           Enjoy Seamless protection and Safety in your Environment. Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, incididunt ut labore et
           dolore incididunt ut labore et dolore magna consectetur adipiscing

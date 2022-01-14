@@ -14,7 +14,7 @@ const Footer = () => {
           <h3 className="font-bold font-serif text-xl lg:text-2xl">
             DotSafety
           </h3>
-          <p className="font-sans text-base lg:text-lg py-6 !leading-[22px]">
+          <p className="font-sans text-sm lg:text-lg py-6 !leading-[22px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt
             ut labore et dolore incididunt ut labore et dolore magna. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p className="text-lg font-[350] font-sans">
+        <p className=" text-sm md:text-base lg:text-lg font-[350] font-sans">
           © 2021 DotSafety Tracking System.
         </p>
       </div>

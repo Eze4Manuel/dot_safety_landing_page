@@ -41,10 +41,10 @@ const Testimonials = () => {
       className="min-h-screen bg-white py-14 px-4 md:px-5 lg:px-28"
     >
       <div>
-        <h3 className="text-[32px] text-primary-base text-center py-9 font-serif font-semibold">
+        <h3 className="text-2xl md:text-4xl text-[32px] text-primary-base text-center py-9 font-serif font-semibold">
           Testimonial
         </h3>
-        <p className="text-2xl text-gray-400 text-center">
+        <p className="text-base md:text-xl lg:text-2xl text-gray-400 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit incididunt ut
           labore et dolore magna consectetur adipiscing elit, incididunt ut
           Lorem ipsum
